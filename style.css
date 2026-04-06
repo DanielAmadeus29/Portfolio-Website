@@ -239,7 +239,7 @@ nav {
   background: var(--off-white);
   border: 1px solid var(--border-med);
   padding: 60px;          /* bigger inner space */      /* control width */
-  width: 700px;
+  width: 650px;
   min-height: 500px;     /* make it taller */
   position: relative;
 }
@@ -375,16 +375,19 @@ nav {
 }
 
 .about-portrait {
-  width: 100%;
-  aspect-ratio: 3/4;
-  background: var(--light-gray);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 16px; /* square modern look */
   overflow: hidden;
   position: relative;
-  border: 1px solid var(--border-med);
 }
+.portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 .portrait-initials {
   font-family: var(--font-display);
@@ -395,14 +398,6 @@ nav {
   letter-spacing: 0.05em;
   position: relative;
   z-index: 1;
-}
-
-.about-portrait::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--black);
-  opacity: 0.92;
 }
 
 .about-main p {
