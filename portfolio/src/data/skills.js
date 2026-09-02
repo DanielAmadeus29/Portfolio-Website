@@ -47,6 +47,7 @@ export const skills = [
       "Visual Studio",
       "Google Colab",
       "Kaggle",
+      "Dagshub",
     ],
   },
   {

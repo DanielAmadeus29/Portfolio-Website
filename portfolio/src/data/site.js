@@ -15,17 +15,6 @@ export const site = {
   intro:
     "Hi, I'm Daniel — a Computer Science student driven by curiosity and problem-solving. I enjoy building systems that combine logic, creativity and real-world impact. Coding isn't just about making things work — it's about making them meaningful.",
 
-  // Small info card next to the hero. Add / remove rows freely.
-  infoCard: [
-    {
-      label: "University",
-      value:
-        "Fu Jen Catholic University 輔仁大學 — BSc Computer Science and Information Engineering",
-    },
-    { label: "Specialization", value: "AI / Machine Learning · Software Development" },
-    { label: "Interests", value: "AI & ML · Game Development · Music Production" },
-  ],
-
   // ─── About section ───
   portrait: "/ProfilePict.jpeg",
   about: [

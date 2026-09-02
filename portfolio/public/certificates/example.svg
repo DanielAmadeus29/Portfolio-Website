@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="750" viewBox="0 0 1000 750">
+  <rect width="1000" height="750" fill="#f2f4f7"/>
+  <rect x="40" y="40" width="920" height="670" fill="#fff" stroke="#d5dae2" stroke-width="2"/>
+  <text x="500" y="330" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="40" fill="#0f1b2d" font-weight="700">Certificate of Completion</text>
+  <text x="500" y="400" text-anchor="middle" font-family="DM Mono, monospace" font-size="22" fill="#5c6674">Replace this file in public/certificates/</text>
+  <text x="500" y="435" text-anchor="middle" font-family="DM Mono, monospace" font-size="22" fill="#5c6674">and update src/data/certificates.js</text>
+</svg>
