@@ -26,12 +26,12 @@ export const skills = [
   {
     label: "AI / Machine Learning",
     items: [
+      "PyTorch",
       "TensorFlow",
       "Keras",
-      "PyTorch",
-      "Computer Vision",
-      "Transfer Learning",
-      "MLflow",
+      "Scikit-learn",
+      "YOLO",
+      "Mlflow",
     ],
   },
   {
