@@ -142,6 +142,17 @@ function Projects() {
               <h3 className="project-name">{project.title}</h3>
               <p className="project-desc">{project.summary}</p>
 
+              {project.readMore && (
+                <a
+                  href={project.readMore}
+                  target="_blank"
+                  rel="noopener"
+                  className="project-readmore"
+                >
+                  Read more →
+                </a>
+              )}
+
               {project.tags?.length > 0 && (
                 <div className="project-tags">
                   {project.tags.map((t) => (

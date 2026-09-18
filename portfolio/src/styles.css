@@ -209,6 +209,8 @@ img { max-width: 100%; display: block; }
 .project-num { font-family: var(--font-mono); font-size: 1rem; color: var(--ink-muted); padding-top: 0.4rem; }
 .project-name { font-weight: 700; font-size: clamp(1.4rem, 3.5vw, 1.9rem); letter-spacing: -0.01em; }
 .project-desc { max-width: 62ch; margin: 0.6rem 0 1.1rem; color: var(--ink-muted); }
+.project-readmore { display: inline-block; margin: -0.6rem 0 1.1rem; font-size: 0.85rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+.project-readmore:hover { text-decoration: underline; }
 .project-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.9rem; }
 .project-meta { font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink-muted); display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
 .project-meta .sep { margin-left: 0.4rem; }
