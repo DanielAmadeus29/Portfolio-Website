@@ -36,18 +36,17 @@ export const skills = [
   },
   {
     label: "Databases",
-    items: ["PostgreSQL", "Microsoft SQL Server", "MySQL"],
+    items: ["PostgreSQL",
+      "MongoDB",
+    ],
   },
   {
     label: "Tools & Platforms",
     items: [
       "Git",
       "GitHub",
-      "VS Code",
-      "Visual Studio",
-      "Google Colab",
-      "Kaggle",
       "Dagshub",
+      "Docker",
     ],
   },
   {

@@ -10,7 +10,7 @@ export const site = {
   firstName: "Daniel",
   lastName: "Amadeus",
   fullName: "Daniel Amadeus Gunawan",
-  role: "Computer Science Student · AI / ML",
+  role: "Software Engineer | Computer Science Student",
 
   intro:
     "Hi, I'm Daniel — a Computer Science student driven by curiosity and problem-solving. I enjoy building systems that combine logic, creativity and real-world impact. Coding isn't just about making things work — it's about making them meaningful.",
